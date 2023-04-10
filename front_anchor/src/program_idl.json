@@ -1,0 +1,52 @@
+{
+  "name": "raffle_program",
+  "version": "0.0.1",
+  "instructions": [
+    {
+      "name": "transfer",
+      "accounts": [
+        {
+          "name": "userAccount",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "userUsdcAccount",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "lotteryUsdcAccount",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "tokenProgram",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "lotteryAccountInfo",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "lotteryAuthority",
+          "isMut": false,
+          "isSigner": true
+        },
+        {
+          "name": "rent",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "systemProgram",
+          "isMut": false,
+          "isSigner": false
+        }
+      ]
+    }
+  ],
+  "types": []
+}

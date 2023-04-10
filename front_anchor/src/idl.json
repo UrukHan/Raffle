@@ -1,0 +1,12 @@
+{
+  "version": "0.1.0",
+  "name": "anchor",
+  "instructions": [
+    {
+      "name": "initialize",
+      "accounts": [],
+      "args": []
+    }
+  ]
+}
+
