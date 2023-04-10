@@ -1,0 +1,182 @@
+body {
+    background-color: #282c34;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #384050;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #29343D;
+    cursor: pointer;
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+a {
+    color: #2a9df4;
+    text-decoration: none;
+    border-bottom: 2px solid #2a9df4;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.wallet-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.wallet-section p {
+    margin-bottom: 10px;
+}
+
+.wallet-section button {
+    margin-top: 20px;
+}
+
+.balance-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.balance-section p {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.balance-section p span {
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 5px;
+}
+
+.balance-section p sol {
+    color: #40b34e;
+}
+
+.balance-section p usdc {
+    color: #2a9df4;
+}
+
+.transaction-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.transaction-section button {
+    margin-top: 20px;
+}
+
+.transaction-section input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.transaction-section label {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.transaction-section span {
+    color: #f44336;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.transaction-section textarea {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    resize: none;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.tx-info {
+    margin-top: 20px;
+    font-size: 14px;
+    border: 1px solid #b3b3b3;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.tx-info h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tx-info p {
+    margin: 0;
+    color: #fff;
+}
+
+.tx-info .key {
+    font-weight: bold;
+}
+
+.tx-info .value {
+    margin-left: 5px;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #2d2d2d;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #1a1a1a;
+}
+
+.button:active {
+    background-color: #141414;
+}
